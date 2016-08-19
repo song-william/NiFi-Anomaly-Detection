@@ -1,0 +1,2238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<template>
+    <description>from the learning the ropes of nifi tutorial</description>
+    <id>0337d869-d391-4ce7-b4d3-a5ccadcb3e39</id>
+    <name>Traffic Simulator Flow</name>
+    <snippet>
+        <connections>
+            <id>173c6c11-e1e5-4918-b212-75e9f13af226</id>
+            <parentGroupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</parentGroupId>
+            <backPressureDataSizeThreshold>0 MB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>0</backPressureObjectThreshold>
+            <destination>
+                <groupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</groupId>
+                <id>9d13a41a-c882-4427-94cb-353944e75bc1</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>merged</selectedRelationships>
+            <source>
+                <groupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</groupId>
+                <id>dd5fc0d8-b8fb-4c4f-bdd6-b92739df4059</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>49823481-1d45-4ca2-90c7-a13b22b4c4fb</id>
+            <parentGroupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</parentGroupId>
+            <backPressureDataSizeThreshold>0 MB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>0</backPressureObjectThreshold>
+            <destination>
+                <groupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</groupId>
+                <id>fddd9ff3-4f43-4903-9b05-c1f4847c4ed2</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</groupId>
+                <id>cd9ef48c-d7e6-42dd-b5c1-78293ac9574e</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>f2a32937-3332-4d70-a26b-a5ae56bc90f9</id>
+            <parentGroupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</parentGroupId>
+            <backPressureDataSizeThreshold>0 MB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>0</backPressureObjectThreshold>
+            <destination>
+                <groupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</groupId>
+                <id>99c5337f-d24f-4227-aaf3-a0df658ec6fc</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</groupId>
+                <id>86cedd6c-17a1-4791-af4c-1c35bcbb73eb</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>de27b7de-408e-43d4-9ac0-8be2cb6a75e6</id>
+            <parentGroupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</parentGroupId>
+            <backPressureDataSizeThreshold>0 MB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>0</backPressureObjectThreshold>
+            <destination>
+                <groupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</groupId>
+                <id>d6c34e79-3f21-41a5-8be5-2104054314ea</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</groupId>
+                <id>fddd9ff3-4f43-4903-9b05-c1f4847c4ed2</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>99c33268-e9c6-4df6-964f-846f73bc4b35</id>
+            <parentGroupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</parentGroupId>
+            <backPressureDataSizeThreshold>0 MB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>0</backPressureObjectThreshold>
+            <bends>
+                <x>445.0414123535156</x>
+                <y>232.48199462890625</y>
+            </bends>
+            <bends>
+                <x>443.7861328125</x>
+                <y>42.93328857421875</y>
+            </bends>
+            <bends>
+                <x>446.29669189453125</x>
+                <y>-122.7649154663086</y>
+            </bends>
+            <destination>
+                <groupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</groupId>
+                <id>faedbc40-de9b-4104-b9da-737e33136083</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</groupId>
+                <id>d6c34e79-3f21-41a5-8be5-2104054314ea</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>ae09d453-8977-46ea-ba32-7ed3a0d77a1d</id>
+            <parentGroupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</parentGroupId>
+            <backPressureDataSizeThreshold>0 MB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>0</backPressureObjectThreshold>
+            <destination>
+                <groupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</groupId>
+                <id>dd5fc0d8-b8fb-4c4f-bdd6-b92739df4059</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</groupId>
+                <id>06eb82c9-7d89-401f-93ce-64f7c0489beb</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>e1393bb2-afe3-4f6d-9bc6-626eb6e73ff5</id>
+            <parentGroupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</parentGroupId>
+            <backPressureDataSizeThreshold>0 MB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>0</backPressureObjectThreshold>
+            <destination>
+                <groupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</groupId>
+                <id>8feb4d8a-c43e-4767-becf-8eecf6083a83</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>matched</selectedRelationships>
+            <source>
+                <groupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</groupId>
+                <id>faedbc40-de9b-4104-b9da-737e33136083</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>b2384a15-1f7b-42bc-a361-740ec028fd5b</id>
+            <parentGroupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</parentGroupId>
+            <backPressureDataSizeThreshold>0 MB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>0</backPressureObjectThreshold>
+            <bends>
+                <x>943.9077758789062</x>
+                <y>411.2656555175781</y>
+            </bends>
+            <bends>
+                <x>959.6815795898438</x>
+                <y>117.29841613769531</y>
+            </bends>
+            <bends>
+                <x>968.2855224609375</x>
+                <y>-127.91327667236328</y>
+            </bends>
+            <destination>
+                <groupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</groupId>
+                <id>616d8771-e6df-4638-8834-eac93bbd1ceb</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>matched</selectedRelationships>
+            <source>
+                <groupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</groupId>
+                <id>99c5337f-d24f-4227-aaf3-a0df658ec6fc</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>c1cdcb22-8059-44e5-9ea5-974271916850</id>
+            <parentGroupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</parentGroupId>
+            <backPressureDataSizeThreshold>0 MB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>0</backPressureObjectThreshold>
+            <destination>
+                <groupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</groupId>
+                <id>06eb82c9-7d89-401f-93ce-64f7c0489beb</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>Filter_Attributes</selectedRelationships>
+            <source>
+                <groupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</groupId>
+                <id>616d8771-e6df-4638-8834-eac93bbd1ceb</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>8e94972f-a705-4082-a208-18e3ff1065fc</id>
+            <parentGroupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</parentGroupId>
+            <backPressureDataSizeThreshold>0 MB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>0</backPressureObjectThreshold>
+            <destination>
+                <groupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</groupId>
+                <id>86cedd6c-17a1-4791-af4c-1c35bcbb73eb</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <name></name>
+            <selectedRelationships>split</selectedRelationships>
+            <source>
+                <groupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</groupId>
+                <id>8feb4d8a-c43e-4767-becf-8eecf6083a83</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <processors>
+            <id>8feb4d8a-c43e-4767-becf-8eecf6083a83</id>
+            <parentGroupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</parentGroupId>
+            <position>
+                <x>576.8184204101562</x>
+                <y>13.939323425292969</y>
+            </position>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <defaultConcurrentTasks>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>EVENT_DRIVEN</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                </defaultConcurrentTasks>
+                <defaultSchedulingPeriod>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>* * * * * ?</value>
+                    </entry>
+                </defaultSchedulingPeriod>
+                <descriptors>
+                    <entry>
+                        <key>Split Depth</key>
+                        <value>
+                            <defaultValue>1</defaultValue>
+                            <description>Indicates the XML-nesting depth to start splitting XML fragments. A depth of 1 means split the root's children, whereas a depth of 2 means split the root's children's children and so forth.</description>
+                            <displayName>Split Depth</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Split Depth</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                </descriptors>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Split Depth</key>
+                        <value>1</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <name>SplitXml</name>
+            <persistsState>false</persistsState>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <description>If a FlowFile fails processing for any reason (for example, the FlowFile is not valid XML), it will be routed to this relationship</description>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <description>The original FlowFile that was split into segments. If the FlowFile fails processing, nothing will be sent to this relationship</description>
+                <name>original</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <description>All segments of the original FlowFile will be routed to this relationship</description>
+                <name>split</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <supportsBatching>true</supportsBatching>
+            <supportsEventDriven>true</supportsEventDriven>
+            <supportsParallelProcessing>true</supportsParallelProcessing>
+            <type>org.apache.nifi.processors.standard.SplitXml</type>
+        </processors>
+        <processors>
+            <id>dd5fc0d8-b8fb-4c4f-bdd6-b92739df4059</id>
+            <parentGroupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</parentGroupId>
+            <position>
+                <x>1076.2742919921875</x>
+                <y>191.0106201171875</y>
+            </position>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <defaultConcurrentTasks>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>EVENT_DRIVEN</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                </defaultConcurrentTasks>
+                <defaultSchedulingPeriod>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>* * * * * ?</value>
+                    </entry>
+                </defaultSchedulingPeriod>
+                <descriptors>
+                    <entry>
+                        <key>Merge Strategy</key>
+                        <value>
+                            <allowableValues>
+<description>Generates 'bins' of FlowFiles and fills each bin as full as possible. FlowFiles are placed into a bin based on their size and optionally their attributes (if the &lt;Correlation Attribute&gt; property is set)</description>
+<displayName>Bin-Packing Algorithm</displayName>
+<value>Bin-Packing Algorithm</value>
+                            </allowableValues>
+                            <allowableValues>
+<description>Combines fragments that are associated by attributes back into a single cohesive FlowFile. If using this strategy, all FlowFiles must have the attributes &lt;fragment.identifier&gt;, &lt;fragment.count&gt;, and &lt;fragment.index&gt; or alternatively (for backward compatibility purposes) &lt;segment.identifier&gt;, &lt;segment.count&gt;, and &lt;segment.index&gt;. All FlowFiles with the same value for &quot;fragment.identifier&quot; will be grouped together. All FlowFiles in this group must have the same value for the &quot;fragment.count&quot; attribute. All FlowFiles in this group must have a unique value for the &quot;fragment.index&quot; attribute between 0 and the value of the &quot;fragment.count&quot; attribute.</description>
+<displayName>Defragment</displayName>
+<value>Defragment</value>
+                            </allowableValues>
+                            <defaultValue>Bin-Packing Algorithm</defaultValue>
+                            <description>Specifies the algorithm used to merge content. The 'Defragment' algorithm combines fragments that are associated by attributes back into a single cohesive FlowFile. The 'Bin-Packing Algorithm' generates a FlowFile populated by arbitrarily chosen FlowFiles</description>
+                            <displayName>Merge Strategy</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Merge Strategy</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Merge Format</key>
+                        <value>
+                            <allowableValues>
+<description>A bin of FlowFiles will be combined into a single TAR file. The FlowFiles' &lt;path&gt; attribute will be used to create a directory in the TAR file if the &lt;Keep Paths&gt; property is set to true; otherwise, all FlowFiles will be added at the root of the TAR file. If a FlowFile has an attribute named &lt;tar.permissions&gt; that is 3 characters, each between 0-7, that attribute will be used as the TAR entry's 'mode'.</description>
+<displayName>TAR</displayName>
+<value>TAR</value>
+                            </allowableValues>
+                            <allowableValues>
+<description>A bin of FlowFiles will be combined into a single ZIP file. The FlowFiles' &lt;path&gt; attribute will be used to create a directory in the ZIP file if the &lt;Keep Paths&gt; property is set to true; otherwise, all FlowFiles will be added at the root of the ZIP file. The &lt;Compression Level&gt; property indicates the ZIP compression to use.</description>
+<displayName>ZIP</displayName>
+<value>ZIP</value>
+                            </allowableValues>
+                            <allowableValues>
+<description>A bin of FlowFiles will be combined into a single Version 3 FlowFile Stream</description>
+<displayName>FlowFile Stream, v3</displayName>
+<value>FlowFile Stream, v3</value>
+                            </allowableValues>
+                            <allowableValues>
+<description>A bin of FlowFiles will be combined into a single Version 2 FlowFile Stream</description>
+<displayName>FlowFile Stream, v2</displayName>
+<value>FlowFile Stream, v2</value>
+                            </allowableValues>
+                            <allowableValues>
+<description>A bin of FlowFiles will be combined into a single Version 1 FlowFile Package</description>
+<displayName>FlowFile Tar, v1</displayName>
+<value>FlowFile Tar, v1</value>
+                            </allowableValues>
+                            <allowableValues>
+<description>The contents of all FlowFiles will be concatenated together into a single FlowFile</description>
+<displayName>Binary Concatenation</displayName>
+<value>Binary Concatenation</value>
+                            </allowableValues>
+                            <allowableValues>
+<description>The Avro contents of all FlowFiles will be concatenated together into a single FlowFile</description>
+<displayName>Avro</displayName>
+<value>Avro</value>
+                            </allowableValues>
+                            <defaultValue>Binary Concatenation</defaultValue>
+                            <description>Determines the format that will be used to merge the content.</description>
+                            <displayName>Merge Format</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Merge Format</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Attribute Strategy</key>
+                        <value>
+                            <allowableValues>
+<displayName>Keep Only Common Attributes</displayName>
+<value>Keep Only Common Attributes</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>Keep All Unique Attributes</displayName>
+<value>Keep All Unique Attributes</value>
+                            </allowableValues>
+                            <defaultValue>Keep Only Common Attributes</defaultValue>
+                            <description>Determines which FlowFile attributes should be added to the bundle. If 'Keep All Unique Attributes' is selected, any attribute on any FlowFile that gets bundled will be kept unless its value conflicts with the value from another FlowFile. If 'Keep Only Common Attributes' is selected, only the attributes that exist on all FlowFiles in the bundle, with the same value, will be preserved.</description>
+                            <displayName>Attribute Strategy</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Attribute Strategy</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Correlation Attribute Name</key>
+                        <value>
+                            <description>If specified, like FlowFiles will be binned together, where 'like FlowFiles' means FlowFiles that have the same value for this Attribute. If not specified, FlowFiles are bundled by the order in which they are pulled from the queue.</description>
+                            <displayName>Correlation Attribute Name</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Correlation Attribute Name</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>true</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Minimum Number of Entries</key>
+                        <value>
+                            <defaultValue>1</defaultValue>
+                            <description>The minimum number of files to include in a bundle</description>
+                            <displayName>Minimum Number of Entries</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Minimum Number of Entries</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Maximum Number of Entries</key>
+                        <value>
+                            <description>The maximum number of files to include in a bundle. If not specified, there is no maximum.</description>
+                            <displayName>Maximum Number of Entries</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Maximum Number of Entries</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Minimum Group Size</key>
+                        <value>
+                            <defaultValue>0 B</defaultValue>
+                            <description>The minimum size of for the bundle</description>
+                            <displayName>Minimum Group Size</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Minimum Group Size</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Maximum Group Size</key>
+                        <value>
+                            <description>The maximum size for the bundle. If not specified, there is no maximum.</description>
+                            <displayName>Maximum Group Size</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Maximum Group Size</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Max Bin Age</key>
+                        <value>
+                            <description>The maximum age of a Bin that will trigger a Bin to be complete. Expected format is &lt;duration&gt; &lt;time unit&gt; where &lt;duration&gt; is a positive integer and time unit is one of seconds, minutes, hours</description>
+                            <displayName>Max Bin Age</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Max Bin Age</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Maximum number of Bins</key>
+                        <value>
+                            <defaultValue>100</defaultValue>
+                            <description>Specifies the maximum number of bins that can be held in memory at any one time</description>
+                            <displayName>Maximum number of Bins</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Maximum number of Bins</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Delimiter Strategy</key>
+                        <value>
+                            <allowableValues>
+<description>The values of Header, Footer, and Demarcator will be retrieved from the contents of a file</description>
+<displayName>Filename</displayName>
+<value>Filename</value>
+                            </allowableValues>
+                            <allowableValues>
+<description>The values of Header, Footer, and Demarcator will be specified as property values</description>
+<displayName>Text</displayName>
+<value>Text</value>
+                            </allowableValues>
+                            <defaultValue>Filename</defaultValue>
+                            <description>Determines if Header, Footer, and Demarcator should point to files containing the respective content, or if the values of the properties should be used as the content.</description>
+                            <displayName>Delimiter Strategy</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Delimiter Strategy</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Header File</key>
+                        <value>
+                            <description>Filename specifying the header to use. If not specified, no header is supplied. This property is valid only when using the binary-concatenation merge strategy; otherwise, it is ignored.</description>
+                            <displayName>Header</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Header File</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>true</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Footer File</key>
+                        <value>
+                            <description>Filename specifying the footer to use. If not specified, no footer is supplied. This property is valid only when using the binary-concatenation merge strategy; otherwise, it is ignored.</description>
+                            <displayName>Footer</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Footer File</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>true</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Demarcator File</key>
+                        <value>
+                            <description>Filename specifying the demarcator to use. If not specified, no demarcator is supplied. This property is valid only when using the binary-concatenation merge strategy; otherwise, it is ignored.</description>
+                            <displayName>Demarcator</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Demarcator File</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>true</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Compression Level</key>
+                        <value>
+                            <allowableValues>
+<displayName>0</displayName>
+<value>0</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>1</displayName>
+<value>1</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>2</displayName>
+<value>2</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>3</displayName>
+<value>3</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>4</displayName>
+<value>4</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>5</displayName>
+<value>5</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>6</displayName>
+<value>6</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>7</displayName>
+<value>7</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>8</displayName>
+<value>8</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>9</displayName>
+<value>9</value>
+                            </allowableValues>
+                            <defaultValue>1</defaultValue>
+                            <description>Specifies the compression level to use when using the Zip Merge Format; if not using the Zip Merge Format, this value is ignored</description>
+                            <displayName>Compression Level</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Compression Level</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Keep Path</key>
+                        <value>
+                            <allowableValues>
+<displayName>true</displayName>
+<value>true</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>false</displayName>
+<value>false</value>
+                            </allowableValues>
+                            <defaultValue>false</defaultValue>
+                            <description>If using the Zip or Tar Merge Format, specifies whether or not the FlowFiles' paths should be included in their entry names; if using other merge strategy, this value is ignored</description>
+                            <displayName>Keep Path</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Keep Path</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                </descriptors>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Merge Strategy</key>
+                        <value>Bin-Packing Algorithm</value>
+                    </entry>
+                    <entry>
+                        <key>Merge Format</key>
+                        <value>Binary Concatenation</value>
+                    </entry>
+                    <entry>
+                        <key>Attribute Strategy</key>
+                        <value>Keep Only Common Attributes</value>
+                    </entry>
+                    <entry>
+                        <key>Correlation Attribute Name</key>
+                    </entry>
+                    <entry>
+                        <key>Minimum Number of Entries</key>
+                        <value>10</value>
+                    </entry>
+                    <entry>
+                        <key>Maximum Number of Entries</key>
+                        <value>15</value>
+                    </entry>
+                    <entry>
+                        <key>Minimum Group Size</key>
+                        <value>0 B</value>
+                    </entry>
+                    <entry>
+                        <key>Maximum Group Size</key>
+                    </entry>
+                    <entry>
+                        <key>Max Bin Age</key>
+                    </entry>
+                    <entry>
+                        <key>Maximum number of Bins</key>
+                        <value>100</value>
+                    </entry>
+                    <entry>
+                        <key>Delimiter Strategy</key>
+                        <value>Text</value>
+                    </entry>
+                    <entry>
+                        <key>Header File</key>
+                        <value>[</value>
+                    </entry>
+                    <entry>
+                        <key>Footer File</key>
+                        <value>]</value>
+                    </entry>
+                    <entry>
+                        <key>Demarcator File</key>
+                        <value>,</value>
+                    </entry>
+                    <entry>
+                        <key>Compression Level</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>Keep Path</key>
+                        <value>false</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <name>MergeContent</name>
+            <persistsState>false</persistsState>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <description>If the bundle cannot be created, all FlowFiles that would have been used to created the bundle will be transferred to failure</description>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <description>The FlowFile containing the merged content</description>
+                <name>merged</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <description>The FlowFiles that were used to create the bundle</description>
+                <name>original</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <supportsBatching>false</supportsBatching>
+            <supportsEventDriven>false</supportsEventDriven>
+            <supportsParallelProcessing>true</supportsParallelProcessing>
+            <type>org.apache.nifi.processors.standard.MergeContent</type>
+        </processors>
+        <processors>
+            <id>cd9ef48c-d7e6-42dd-b5c1-78293ac9574e</id>
+            <parentGroupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</parentGroupId>
+            <position>
+                <x>26.99676513671875</x>
+                <y>-179.80822944641113</y>
+            </position>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <defaultConcurrentTasks>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>EVENT_DRIVEN</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                </defaultConcurrentTasks>
+                <defaultSchedulingPeriod>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>* * * * * ?</value>
+                    </entry>
+                </defaultSchedulingPeriod>
+                <descriptors>
+                    <entry>
+                        <key>Input Directory</key>
+                        <value>
+                            <description>The input directory from which to pull files</description>
+                            <displayName>Input Directory</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Input Directory</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>true</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>File Filter</key>
+                        <value>
+                            <defaultValue>[^\.].*</defaultValue>
+                            <description>Only files whose names match the given regular expression will be picked up</description>
+                            <displayName>File Filter</displayName>
+                            <dynamic>false</dynamic>
+                            <name>File Filter</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Path Filter</key>
+                        <value>
+                            <description>When Recurse Subdirectories is true, then only subdirectories whose path matches the given regular expression will be scanned</description>
+                            <displayName>Path Filter</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Path Filter</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>
+                            <defaultValue>10</defaultValue>
+                            <description>The maximum number of files to pull in each iteration</description>
+                            <displayName>Batch Size</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Batch Size</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Keep Source File</key>
+                        <value>
+                            <allowableValues>
+<displayName>true</displayName>
+<value>true</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>false</displayName>
+<value>false</value>
+                            </allowableValues>
+                            <defaultValue>false</defaultValue>
+                            <description>If true, the file is not deleted after it has been copied to the Content Repository; this causes the file to be picked up continually and is useful for testing purposes.  If not keeping original NiFi will need write permissions on the directory it is pulling from otherwise it will ignore the file.</description>
+                            <displayName>Keep Source File</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Keep Source File</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Recurse Subdirectories</key>
+                        <value>
+                            <allowableValues>
+<displayName>true</displayName>
+<value>true</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>false</displayName>
+<value>false</value>
+                            </allowableValues>
+                            <defaultValue>true</defaultValue>
+                            <description>Indicates whether or not to pull files from subdirectories</description>
+                            <displayName>Recurse Subdirectories</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Recurse Subdirectories</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Polling Interval</key>
+                        <value>
+                            <defaultValue>0 sec</defaultValue>
+                            <description>Indicates how long to wait before performing a directory listing</description>
+                            <displayName>Polling Interval</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Polling Interval</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Ignore Hidden Files</key>
+                        <value>
+                            <allowableValues>
+<displayName>true</displayName>
+<value>true</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>false</displayName>
+<value>false</value>
+                            </allowableValues>
+                            <defaultValue>true</defaultValue>
+                            <description>Indicates whether or not hidden files should be ignored</description>
+                            <displayName>Ignore Hidden Files</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Ignore Hidden Files</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Minimum File Age</key>
+                        <value>
+                            <defaultValue>0 sec</defaultValue>
+                            <description>The minimum age that a file must be in order to be pulled; any file younger than this amount of time (according to last modification date) will be ignored</description>
+                            <displayName>Minimum File Age</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Minimum File Age</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Maximum File Age</key>
+                        <value>
+                            <description>The maximum age that a file must be in order to be pulled; any file older than this amount of time (according to last modification date) will be ignored</description>
+                            <displayName>Maximum File Age</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Maximum File Age</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Minimum File Size</key>
+                        <value>
+                            <defaultValue>0 B</defaultValue>
+                            <description>The minimum size that a file must be in order to be pulled</description>
+                            <displayName>Minimum File Size</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Minimum File Size</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Maximum File Size</key>
+                        <value>
+                            <description>The maximum size that a file can be in order to be pulled</description>
+                            <displayName>Maximum File Size</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Maximum File Size</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                </descriptors>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Input Directory</key>
+                        <value>/Users/wsong/Desktop/nifi/input</value>
+                    </entry>
+                    <entry>
+                        <key>File Filter</key>
+                        <value>[^\.].*</value>
+                    </entry>
+                    <entry>
+                        <key>Path Filter</key>
+                    </entry>
+                    <entry>
+                        <key>Batch Size</key>
+                        <value>10</value>
+                    </entry>
+                    <entry>
+                        <key>Keep Source File</key>
+                        <value>true</value>
+                    </entry>
+                    <entry>
+                        <key>Recurse Subdirectories</key>
+                        <value>true</value>
+                    </entry>
+                    <entry>
+                        <key>Polling Interval</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Ignore Hidden Files</key>
+                        <value>true</value>
+                    </entry>
+                    <entry>
+                        <key>Minimum File Age</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>Maximum File Age</key>
+                    </entry>
+                    <entry>
+                        <key>Minimum File Size</key>
+                        <value>0 B</value>
+                    </entry>
+                    <entry>
+                        <key>Maximum File Size</key>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <name>GetFile</name>
+            <persistsState>false</persistsState>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <description>All files are routed to success</description>
+                <name>success</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <supportsBatching>false</supportsBatching>
+            <supportsEventDriven>false</supportsEventDriven>
+            <supportsParallelProcessing>true</supportsParallelProcessing>
+            <type>org.apache.nifi.processors.standard.GetFile</type>
+        </processors>
+        <processors>
+            <id>86cedd6c-17a1-4791-af4c-1c35bcbb73eb</id>
+            <parentGroupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</parentGroupId>
+            <position>
+                <x>572.7009887695312</x>
+                <y>188.789794921875</y>
+            </position>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <defaultConcurrentTasks>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>EVENT_DRIVEN</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                </defaultConcurrentTasks>
+                <defaultSchedulingPeriod>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>* * * * * ?</value>
+                    </entry>
+                </defaultSchedulingPeriod>
+                <descriptors>
+                    <entry>
+                        <key>Delete Attributes Expression</key>
+                        <value>
+                            <description>Regular expression for attributes to be deleted from flowfiles.</description>
+                            <displayName>Delete Attributes Expression</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Delete Attributes Expression</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>true</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>filename</key>
+                        <value>
+                            <description></description>
+                            <displayName>filename</displayName>
+                            <dynamic>true</dynamic>
+                            <name>filename</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>true</supportsEl>
+                        </value>
+                    </entry>
+                </descriptors>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Delete Attributes Expression</key>
+                    </entry>
+                    <entry>
+                        <key>filename</key>
+                        <value>${UUID()}</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <name>UpdateAttribute</name>
+            <persistsState>false</persistsState>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <description>All FlowFiles are routed to this relationship</description>
+                <name>success</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <supportsBatching>false</supportsBatching>
+            <supportsEventDriven>true</supportsEventDriven>
+            <supportsParallelProcessing>true</supportsParallelProcessing>
+            <type>org.apache.nifi.processors.attributes.UpdateAttribute</type>
+        </processors>
+        <processors>
+            <id>06eb82c9-7d89-401f-93ce-64f7c0489beb</id>
+            <parentGroupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</parentGroupId>
+            <position>
+                <x>1075.3109741210938</x>
+                <y>6.047208786010742</y>
+            </position>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <defaultConcurrentTasks>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>EVENT_DRIVEN</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                </defaultConcurrentTasks>
+                <defaultSchedulingPeriod>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>* * * * * ?</value>
+                    </entry>
+                </defaultSchedulingPeriod>
+                <descriptors>
+                    <entry>
+                        <key>Attributes List</key>
+                        <value>
+                            <description>Comma separated list of attributes to be included in the resulting JSON. If this value is left empty then all existing Attributes will be included. This list of attributes is case sensitive. If an attribute specified in the list is not found it will be be emitted to the resulting JSON with an empty string or NULL value.</description>
+                            <displayName>Attributes List</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Attributes List</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Destination</key>
+                        <value>
+                            <allowableValues>
+<displayName>flowfile-attribute</displayName>
+<value>flowfile-attribute</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>flowfile-content</displayName>
+<value>flowfile-content</value>
+                            </allowableValues>
+                            <defaultValue>flowfile-attribute</defaultValue>
+                            <description>Control if JSON value is written as a new flowfile attribute 'JSONAttributes' or written in the flowfile content. Writing to flowfile content will overwrite any existing flowfile content.</description>
+                            <displayName>Destination</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Destination</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Include Core Attributes</key>
+                        <value>
+                            <allowableValues>
+<displayName>true</displayName>
+<value>true</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>false</displayName>
+<value>false</value>
+                            </allowableValues>
+                            <defaultValue>true</defaultValue>
+                            <description>Determines if the FlowFile org.apache.nifi.flowfile.attributes.CoreAttributes which are contained in every FlowFile should be included in the final JSON value generated.</description>
+                            <displayName>Include Core Attributes</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Include Core Attributes</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Null Value</key>
+                        <value>
+                            <allowableValues>
+<displayName>true</displayName>
+<value>true</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>false</displayName>
+<value>false</value>
+                            </allowableValues>
+                            <defaultValue>false</defaultValue>
+                            <description>If true a non existing or empty attribute will be NULL in the resulting JSON. If false an empty string will be placed in the JSON</description>
+                            <displayName>Null Value</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Null Value</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                </descriptors>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Attributes List</key>
+                    </entry>
+                    <entry>
+                        <key>Destination</key>
+                        <value>flowfile-attribute</value>
+                    </entry>
+                    <entry>
+                        <key>Include Core Attributes</key>
+                        <value>true</value>
+                    </entry>
+                    <entry>
+                        <key>Null Value</key>
+                        <value>false</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <name>AttributesToJSON</name>
+            <persistsState>false</persistsState>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <description>Failed to convert attributes to JSON</description>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <description>Successfully converted attributes to JSON</description>
+                <name>success</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <supportsBatching>true</supportsBatching>
+            <supportsEventDriven>true</supportsEventDriven>
+            <supportsParallelProcessing>true</supportsParallelProcessing>
+            <type>org.apache.nifi.processors.standard.AttributesToJSON</type>
+        </processors>
+        <processors>
+            <id>9d13a41a-c882-4427-94cb-353944e75bc1</id>
+            <parentGroupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</parentGroupId>
+            <position>
+                <x>1082.2362670898438</x>
+                <y>351.78167724609375</y>
+            </position>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <defaultConcurrentTasks>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>EVENT_DRIVEN</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                </defaultConcurrentTasks>
+                <defaultSchedulingPeriod>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>* * * * * ?</value>
+                    </entry>
+                </defaultSchedulingPeriod>
+                <descriptors>
+                    <entry>
+                        <key>Directory</key>
+                        <value>
+                            <description>The directory to which files should be written. You may use expression language such as /aa/bb/${path}</description>
+                            <displayName>Directory</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Directory</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>true</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Conflict Resolution Strategy</key>
+                        <value>
+                            <allowableValues>
+<displayName>replace</displayName>
+<value>replace</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>ignore</displayName>
+<value>ignore</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>fail</displayName>
+<value>fail</value>
+                            </allowableValues>
+                            <defaultValue>fail</defaultValue>
+                            <description>Indicates what should happen when a file with the same name already exists in the output directory</description>
+                            <displayName>Conflict Resolution Strategy</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Conflict Resolution Strategy</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Create Missing Directories</key>
+                        <value>
+                            <allowableValues>
+<displayName>true</displayName>
+<value>true</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>false</displayName>
+<value>false</value>
+                            </allowableValues>
+                            <defaultValue>true</defaultValue>
+                            <description>If true, then missing destination directories will be created. If false, flowfiles are penalized and sent to failure.</description>
+                            <displayName>Create Missing Directories</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Create Missing Directories</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Maximum File Count</key>
+                        <value>
+                            <description>Specifies the maximum number of files that can exist in the output directory</description>
+                            <displayName>Maximum File Count</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Maximum File Count</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Last Modified Time</key>
+                        <value>
+                            <description>Sets the lastModifiedTime on the output file to the value of this attribute.  Format must be yyyy-MM-dd'T'HH:mm:ssZ.  You may also use expression language such as ${file.lastModifiedTime}.</description>
+                            <displayName>Last Modified Time</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Last Modified Time</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>true</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Permissions</key>
+                        <value>
+                            <description>Sets the permissions on the output file to the value of this attribute.  Format must be either UNIX rwxrwxrwx with a - in place of denied permissions (e.g. rw-r--r--) or an octal number (e.g. 644).  You may also use expression language such as ${file.permissions}.</description>
+                            <displayName>Permissions</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Permissions</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>true</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Owner</key>
+                        <value>
+                            <description>Sets the owner on the output file to the value of this attribute.  You may also use expression language such as ${file.owner}.</description>
+                            <displayName>Owner</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Owner</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>true</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Group</key>
+                        <value>
+                            <description>Sets the group on the output file to the value of this attribute.  You may also use expression language such as ${file.group}.</description>
+                            <displayName>Group</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Group</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>true</supportsEl>
+                        </value>
+                    </entry>
+                </descriptors>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Directory</key>
+                        <value>/Users/wsong/Desktop/nifi/output/filtered_transitLoc_data</value>
+                    </entry>
+                    <entry>
+                        <key>Conflict Resolution Strategy</key>
+                        <value>fail</value>
+                    </entry>
+                    <entry>
+                        <key>Create Missing Directories</key>
+                        <value>true</value>
+                    </entry>
+                    <entry>
+                        <key>Maximum File Count</key>
+                    </entry>
+                    <entry>
+                        <key>Last Modified Time</key>
+                    </entry>
+                    <entry>
+                        <key>Permissions</key>
+                    </entry>
+                    <entry>
+                        <key>Owner</key>
+                    </entry>
+                    <entry>
+                        <key>Group</key>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <name>PutFile</name>
+            <persistsState>false</persistsState>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <description>Files that could not be written to the output directory for some reason are transferred to this relationship</description>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <description>Files that have been successfully written to the output directory are transferred to this relationship</description>
+                <name>success</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <supportsBatching>true</supportsBatching>
+            <supportsEventDriven>false</supportsEventDriven>
+            <supportsParallelProcessing>true</supportsParallelProcessing>
+            <type>org.apache.nifi.processors.standard.PutFile</type>
+        </processors>
+        <processors>
+            <id>99c5337f-d24f-4227-aaf3-a0df658ec6fc</id>
+            <parentGroupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</parentGroupId>
+            <position>
+                <x>573.7649500692053</x>
+                <y>356.1394495632153</y>
+            </position>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <defaultConcurrentTasks>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>EVENT_DRIVEN</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                </defaultConcurrentTasks>
+                <defaultSchedulingPeriod>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>* * * * * ?</value>
+                    </entry>
+                </defaultSchedulingPeriod>
+                <descriptors>
+                    <entry>
+                        <key>Destination</key>
+                        <value>
+                            <allowableValues>
+<displayName>flowfile-content</displayName>
+<value>flowfile-content</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>flowfile-attribute</displayName>
+<value>flowfile-attribute</value>
+                            </allowableValues>
+                            <defaultValue>flowfile-content</defaultValue>
+                            <description>Indicates whether the results of the XPath evaluation are written to the FlowFile content or a FlowFile attribute; if using attribute, must specify the Attribute Name property. If set to flowfile-content, only one XPath may be specified, and the property name is ignored.</description>
+                            <displayName>Destination</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Destination</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Return Type</key>
+                        <value>
+                            <allowableValues>
+<displayName>auto-detect</displayName>
+<value>auto-detect</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>nodeset</displayName>
+<value>nodeset</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>string</displayName>
+<value>string</value>
+                            </allowableValues>
+                            <defaultValue>auto-detect</defaultValue>
+                            <description>Indicates the desired return type of the Xpath expressions.  Selecting 'auto-detect' will set the return type to 'nodeset' for a Destination of 'flowfile-content', and 'string' for a Destination of 'flowfile-attribute'.</description>
+                            <displayName>Return Type</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Return Type</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Direction_of_Travel</key>
+                        <value>
+                            <description></description>
+                            <displayName>Direction_of_Travel</displayName>
+                            <dynamic>true</dynamic>
+                            <name>Direction_of_Travel</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Latitude</key>
+                        <value>
+                            <description></description>
+                            <displayName>Latitude</displayName>
+                            <dynamic>true</dynamic>
+                            <name>Latitude</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Longitude</key>
+                        <value>
+                            <description></description>
+                            <displayName>Longitude</displayName>
+                            <dynamic>true</dynamic>
+                            <name>Longitude</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Vehicle_Speed</key>
+                        <value>
+                            <description></description>
+                            <displayName>Vehicle_Speed</displayName>
+                            <dynamic>true</dynamic>
+                            <name>Vehicle_Speed</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Vehicle ID</key>
+                        <value>
+                            <description></description>
+                            <displayName>Vehicle ID</displayName>
+                            <dynamic>true</dynamic>
+                            <name>Vehicle ID</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                </descriptors>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Destination</key>
+                        <value>flowfile-attribute</value>
+                    </entry>
+                    <entry>
+                        <key>Return Type</key>
+                        <value>auto-detect</value>
+                    </entry>
+                    <entry>
+                        <key>Direction_of_Travel</key>
+                        <value>//vehicle/@dirTag</value>
+                    </entry>
+                    <entry>
+                        <key>Latitude</key>
+                        <value>//vehicle/@lat</value>
+                    </entry>
+                    <entry>
+                        <key>Longitude</key>
+                        <value>//vehicle/@lon</value>
+                    </entry>
+                    <entry>
+                        <key>Vehicle_Speed</key>
+                        <value>//vehicle/@speedKmHr</value>
+                    </entry>
+                    <entry>
+                        <key>Vehicle ID</key>
+                        <value>//vehicle/@id</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <name>EvaluateXPath</name>
+            <persistsState>false</persistsState>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <description>FlowFiles are routed to this relationship when the XPath cannot be evaluated against the content of the FlowFile; for instance, if the FlowFile is not valid XML, or if the Return Type is 'nodeset' and the XPath evaluates to multiple nodes</description>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <description>FlowFiles are routed to this relationship when the XPath is successfully evaluated and the FlowFile is modified as a result</description>
+                <name>matched</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <description>FlowFiles are routed to this relationship when the XPath does not match the content of the FlowFile and the Destination is set to flowfile-content</description>
+                <name>unmatched</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <supportsBatching>true</supportsBatching>
+            <supportsEventDriven>true</supportsEventDriven>
+            <supportsParallelProcessing>true</supportsParallelProcessing>
+            <type>org.apache.nifi.processors.standard.EvaluateXPath</type>
+        </processors>
+        <processors>
+            <id>616d8771-e6df-4638-8834-eac93bbd1ceb</id>
+            <parentGroupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</parentGroupId>
+            <position>
+                <x>1076.43896484375</x>
+                <y>-174.32540130615234</y>
+            </position>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <defaultConcurrentTasks>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>EVENT_DRIVEN</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                </defaultConcurrentTasks>
+                <defaultSchedulingPeriod>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>* * * * * ?</value>
+                    </entry>
+                </defaultSchedulingPeriod>
+                <descriptors>
+                    <entry>
+                        <key>Routing Strategy</key>
+                        <value>
+                            <allowableValues>
+<description>A copy of the FlowFile will be routed to each relationship whose corresponding expression evaluates to 'true'</description>
+<displayName>Route to Property name</displayName>
+<value>Route to Property name</value>
+                            </allowableValues>
+                            <allowableValues>
+<description>Requires that all user-defined expressions evaluate to 'true' for the FlowFile to be considered a match</description>
+<displayName>Route to 'matched' if all match</displayName>
+<value>Route to 'match' if all match</value>
+                            </allowableValues>
+                            <allowableValues>
+<description>Requires that at least one user-defined expression evaluate to 'true' for hte FlowFile to be considered a match</description>
+<displayName>Route to 'matched' if any matches</displayName>
+<value>Route to 'match' if any matches</value>
+                            </allowableValues>
+                            <defaultValue>Route to Property name</defaultValue>
+                            <description>Specifies how to determine which relationship to use when evaluating the Expression Language</description>
+                            <displayName>Routing Strategy</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Routing Strategy</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Filter_Attributes</key>
+                        <value>
+                            <description></description>
+                            <displayName>Filter_Attributes</displayName>
+                            <dynamic>true</dynamic>
+                            <name>Filter_Attributes</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>true</supportsEl>
+                        </value>
+                    </entry>
+                </descriptors>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Routing Strategy</key>
+                        <value>Route to Property name</value>
+                    </entry>
+                    <entry>
+                        <key>Filter_Attributes</key>
+                        <value>${Direction_of_Travel:isEmpty():not():and(${Last_Time:isEmpty():not()}):and(${Latitude:isEmpty():not()}):and(${Longitude:isEmpty():not()}):and(${Vehicle_ID:isEmpty():not()}):and(${Vehicle_Speed:equals('0'):not()})}</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <name>RouteOnAttribute</name>
+            <persistsState>false</persistsState>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <description></description>
+                <name>Filter_Attributes</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <description>FlowFiles that do not match any user-define expression will be routed here</description>
+                <name>unmatched</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <supportsBatching>true</supportsBatching>
+            <supportsEventDriven>true</supportsEventDriven>
+            <supportsParallelProcessing>true</supportsParallelProcessing>
+            <type>org.apache.nifi.processors.standard.RouteOnAttribute</type>
+        </processors>
+        <processors>
+            <id>fddd9ff3-4f43-4903-9b05-c1f4847c4ed2</id>
+            <parentGroupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</parentGroupId>
+            <position>
+                <x>26.224456787109375</x>
+                <y>13.972896575927734</y>
+            </position>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <defaultConcurrentTasks>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>EVENT_DRIVEN</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                </defaultConcurrentTasks>
+                <defaultSchedulingPeriod>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>* * * * * ?</value>
+                    </entry>
+                </defaultSchedulingPeriod>
+                <descriptors>
+                    <entry>
+                        <key>Packaging Format</key>
+                        <value>
+                            <allowableValues>
+<displayName>use mime.type attribute</displayName>
+<value>use mime.type attribute</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>tar</displayName>
+<value>tar</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>zip</displayName>
+<value>zip</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>flowfile-stream-v3</displayName>
+<value>flowfile-stream-v3</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>flowfile-stream-v2</displayName>
+<value>flowfile-stream-v2</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>flowfile-tar-v1</displayName>
+<value>flowfile-tar-v1</value>
+                            </allowableValues>
+                            <defaultValue>use mime.type attribute</defaultValue>
+                            <description>The Packaging Format used to create the file</description>
+                            <displayName>Packaging Format</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Packaging Format</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                </descriptors>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Packaging Format</key>
+                        <value>zip</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <name>UnpackContent</name>
+            <persistsState>false</persistsState>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <description>The original FlowFile is sent to this relationship when it cannot be unpacked for some reason</description>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <description>The original FlowFile is sent to this relationship after it has been successfully unpacked</description>
+                <name>original</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <description>Unpacked FlowFiles are sent to this relationship</description>
+                <name>success</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <supportsBatching>true</supportsBatching>
+            <supportsEventDriven>true</supportsEventDriven>
+            <supportsParallelProcessing>true</supportsParallelProcessing>
+            <type>org.apache.nifi.processors.standard.UnpackContent</type>
+        </processors>
+        <processors>
+            <id>d6c34e79-3f21-41a5-8be5-2104054314ea</id>
+            <parentGroupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</parentGroupId>
+            <position>
+                <x>30.603012084960938</x>
+                <y>182.1504364013672</y>
+            </position>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <defaultConcurrentTasks>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>EVENT_DRIVEN</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                </defaultConcurrentTasks>
+                <defaultSchedulingPeriod>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>* * * * * ?</value>
+                    </entry>
+                </defaultSchedulingPeriod>
+                <descriptors>
+                    <entry>
+                        <key>Rate Control Criteria</key>
+                        <value>
+                            <allowableValues>
+<description>Rate is controlled by counting bytes transferred per time duration.</description>
+<displayName>data rate</displayName>
+<value>data rate</value>
+                            </allowableValues>
+                            <allowableValues>
+<description>Rate is controlled by counting flowfiles transferred per time duration</description>
+<displayName>flowfile count</displayName>
+<value>flowfile count</value>
+                            </allowableValues>
+                            <allowableValues>
+<description>Rate is controlled by accumulating the value of a specified attribute that is transferred per time duration</description>
+<displayName>attribute value</displayName>
+<value>attribute value</value>
+                            </allowableValues>
+                            <defaultValue>data rate</defaultValue>
+                            <description>Indicates the criteria that is used to control the throughput rate. Changing this value resets the rate counters.</description>
+                            <displayName>Rate Control Criteria</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Rate Control Criteria</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Maximum Rate</key>
+                        <value>
+                            <description>The maximum rate at which data should pass through this processor. The format of this property is expected to be a positive integer, or a Data Size (such as '1 MB') if Rate Control Criteria is set to 'data rate'.</description>
+                            <displayName>Maximum Rate</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Maximum Rate</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Rate Controlled Attribute</key>
+                        <value>
+                            <description>The name of an attribute whose values build toward the rate limit if Rate Control Criteria is set to 'attribute value'. The value of the attribute referenced by this property must be a positive long, or the FlowFile will be routed to failure. This value is ignored if Rate Control Criteria is not set to 'attribute value'. Changing this value resets the rate counters.</description>
+                            <displayName>Rate Controlled Attribute</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Rate Controlled Attribute</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Time Duration</key>
+                        <value>
+                            <defaultValue>1 min</defaultValue>
+                            <description>The amount of time to which the Maximum Rate pertains. Changing this value resets the rate counters.</description>
+                            <displayName>Time Duration</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Time Duration</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Grouping Attribute</key>
+                        <value>
+                            <description>By default, a single &quot;throttle&quot; is used for all FlowFiles. If this value is specified, a separate throttle is used for each value specified by the attribute with this name. Changing this value resets the rate counters.</description>
+                            <displayName>Grouping Attribute</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Grouping Attribute</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                </descriptors>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Rate Control Criteria</key>
+                        <value>flowfile count</value>
+                    </entry>
+                    <entry>
+                        <key>Maximum Rate</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>Rate Controlled Attribute</key>
+                    </entry>
+                    <entry>
+                        <key>Time Duration</key>
+                        <value>6 secs</value>
+                    </entry>
+                    <entry>
+                        <key>Grouping Attribute</key>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <name>ControlRate</name>
+            <persistsState>false</persistsState>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <description>FlowFiles will be routed to this relationship if they are missing a necessary Rate Controlled Attribute or the attribute is not in the expected format</description>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <description>FlowFiles are transferred to this relationship under normal conditions</description>
+                <name>success</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <supportsBatching>false</supportsBatching>
+            <supportsEventDriven>false</supportsEventDriven>
+            <supportsParallelProcessing>false</supportsParallelProcessing>
+            <type>org.apache.nifi.processors.standard.ControlRate</type>
+        </processors>
+        <processors>
+            <id>faedbc40-de9b-4104-b9da-737e33136083</id>
+            <parentGroupId>f0ec29be-bddf-4066-9dc8-718b8d07abeb</parentGroupId>
+            <position>
+                <x>577.5703811645508</x>
+                <y>-176.64488983154297</y>
+            </position>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <defaultConcurrentTasks>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>EVENT_DRIVEN</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>1</value>
+                    </entry>
+                </defaultConcurrentTasks>
+                <defaultSchedulingPeriod>
+                    <entry>
+                        <key>TIMER_DRIVEN</key>
+                        <value>0 sec</value>
+                    </entry>
+                    <entry>
+                        <key>CRON_DRIVEN</key>
+                        <value>* * * * * ?</value>
+                    </entry>
+                </defaultSchedulingPeriod>
+                <descriptors>
+                    <entry>
+                        <key>Destination</key>
+                        <value>
+                            <allowableValues>
+<displayName>flowfile-content</displayName>
+<value>flowfile-content</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>flowfile-attribute</displayName>
+<value>flowfile-attribute</value>
+                            </allowableValues>
+                            <defaultValue>flowfile-content</defaultValue>
+                            <description>Indicates whether the results of the XPath evaluation are written to the FlowFile content or a FlowFile attribute; if using attribute, must specify the Attribute Name property. If set to flowfile-content, only one XPath may be specified, and the property name is ignored.</description>
+                            <displayName>Destination</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Destination</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Return Type</key>
+                        <value>
+                            <allowableValues>
+<displayName>auto-detect</displayName>
+<value>auto-detect</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>nodeset</displayName>
+<value>nodeset</value>
+                            </allowableValues>
+                            <allowableValues>
+<displayName>string</displayName>
+<value>string</value>
+                            </allowableValues>
+                            <defaultValue>auto-detect</defaultValue>
+                            <description>Indicates the desired return type of the Xpath expressions.  Selecting 'auto-detect' will set the return type to 'nodeset' for a Destination of 'flowfile-content', and 'string' for a Destination of 'flowfile-attribute'.</description>
+                            <displayName>Return Type</displayName>
+                            <dynamic>false</dynamic>
+                            <name>Return Type</name>
+                            <required>true</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Last_Time</key>
+                        <value>
+                            <description></description>
+                            <displayName>Last_Time</displayName>
+                            <dynamic>true</dynamic>
+                            <name>Last_Time</name>
+                            <required>false</required>
+                            <sensitive>false</sensitive>
+                            <supportsEl>false</supportsEl>
+                        </value>
+                    </entry>
+                </descriptors>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Destination</key>
+                        <value>flowfile-attribute</value>
+                    </entry>
+                    <entry>
+                        <key>Return Type</key>
+                        <value>auto-detect</value>
+                    </entry>
+                    <entry>
+                        <key>Last_Time</key>
+                        <value>//body/lastTime/@time</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <name>EvaluateXPath</name>
+            <persistsState>false</persistsState>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <description>FlowFiles are routed to this relationship when the XPath cannot be evaluated against the content of the FlowFile; for instance, if the FlowFile is not valid XML, or if the Return Type is 'nodeset' and the XPath evaluates to multiple nodes</description>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <description>FlowFiles are routed to this relationship when the XPath is successfully evaluated and the FlowFile is modified as a result</description>
+                <name>matched</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <description>FlowFiles are routed to this relationship when the XPath does not match the content of the FlowFile and the Destination is set to flowfile-content</description>
+                <name>unmatched</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <supportsBatching>true</supportsBatching>
+            <supportsEventDriven>true</supportsEventDriven>
+            <supportsParallelProcessing>true</supportsParallelProcessing>
+            <type>org.apache.nifi.processors.standard.EvaluateXPath</type>
+        </processors>
+    </snippet>
+    <timestamp>07/06/2016 15:23:42 PDT</timestamp>
+</template>
