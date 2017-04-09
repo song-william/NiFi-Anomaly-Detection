@@ -1,1 +1,1 @@
-[Overview of Results](NiFi-Anomaly-Detection/NiFIAnomalyDetection.pdf)
+[Overview of Results](NiFiAnomalyDetection.pdf)
